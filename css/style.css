@@ -4,20 +4,7 @@
   box-sizing: content-box;
 }
 
-.navbar{
-	max-height:70px ;	
-}
 
-.navbar-brand {
-    padding: 10px 15px;
- }
-.navbar-nav > li > a {
-    padding-top: 19px ;
-    padding-bottom: 20px ;
-}
-.navbar-brand{
-	margin-right:30px;	
-}
 
 a:hover {    
     text-decoration: none !important;
