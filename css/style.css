@@ -49,8 +49,8 @@ a.text-theme:focus, a.text-theme:hover, text-theme:hover,  text-theme:focus {
     border-color: #21c1ff;
 }
 .carousel-inner {
-   
-   height: 600px;
+   max-height: 600px;
+	min-height: 150px;
 }
 .navbar-collapse{
 		z-index:1 ;	
