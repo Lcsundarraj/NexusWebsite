@@ -1,0 +1,98 @@
+/* CSS Document */
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.navbar{
+	max-height:70px ;	
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+ }
+.navbar-nav > li > a {
+    padding-top: 19px ;
+    padding-bottom: 20px ;
+}
+.navbar-brand{
+	margin-right:30px;	
+}
+
+a:hover {    
+    text-decoration: none !important;
+}
+.border-top{
+	border-top:3px solid #21c1ff;	
+}
+.border-btm{
+	border-bottom:3px solid #21c1ff;	
+}
+.bg-theme{
+	background-color:#21c1ff;
+}
+.text-theme{
+    color: #1087b5 ;
+}
+a.text-theme:focus, a.text-theme:hover, text-theme:hover,  text-theme:focus {
+    color: #21c1ff  ;
+}
+.btn-outline-theme {
+    color: #21c1ff;
+	background-color: transparent;
+	background-image: none;
+	border-color: #21c1ff !important;
+}
+.btn-outline-theme:hover {
+    color: #fff;
+    background-color: #21c1ff;
+    border-color: #21c1ff;
+}
+.carousel-inner {
+   
+   height: 600px;
+}
+.navbar-collapse{
+		z-index:1 ;	
+	}
+	
+	#footer ul{
+		list-style:none;
+		margin-left: -38px;	
+	}
+	.footer_bg{
+		background:#24272b;
+	}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+	.navbar-brand {
+    	padding: 5px 0px !important;
+ 	}
+	.navbar{
+		padding: -0.5rem !important;	
+	}
+	.navbar_sm{
+		background:red;	
+	}
+	.navbar-collapse{
+		z-index:1 !important;	
+	}
+	
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.navbar-collapse{
+		z-index:1 !important;	
+	}
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
